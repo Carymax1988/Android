@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<p>
+    <a href="http://news.baidu.com" name="tj_news">新闻</a>
+    <a href="http://www.baidu.com" name="tj_www">网页</a>
+    <a href="http://tieba.baidu.com" name="tj_tieba">贴吧</a>
+    <a href="http://zhidao.baidu.com" name="tj_zhidao">知道</a>
+    <a href="http://mp3.baidu.com" name="tj_mp3">MP3</a>
+    <a href="http://image.baidu.com" name="tj_img">图片</a>
+    <a href="http://video.baidu.com" name="tj_video">视频</a>
+    <a href="http://map.baidu.com" name="tj_map">地图</a>
+</p>

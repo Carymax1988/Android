@@ -1,2 +1,16 @@
 Android中常用的XML文件解析
 DOM、SAX、PULL3
+
+DOM解析
+DocumentBuilderFactory
+DocumentBuilder
+Document
+
+SAX解析
+1.创建SAXParserFactory对象
+2.根据SAXParserFactory.newSAXParser()方法返回一个SAXParser解析器
+3.根据SAXParser解析器获取事件源对象XMLReader
+4.实例化一个DefaultHandler对象
+5.连接事件源对象XMLReader到事件处理类DefaultHandler中
+6.调用XMLReader的parse方法从输入源中获取的XML数据
+7.通过DefaultHandler返回需要的数据集合
