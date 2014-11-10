@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.liujiaqi.cmim.MainActivity" >
+
+    <item
+        android:id="@+id/finsh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="注册"/>
+
+</menu>

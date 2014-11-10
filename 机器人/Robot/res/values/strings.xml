@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Robot</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="initmessage">
+        <item >主人，小仆已在此等候多时。</item>
+        <item >我好想您，我的主人。</item>
+        <item >主人，需要我帮助您什么呢？</item>
+        <item >主人，您是我的全部。</item>
+        <item >啦啦啦，我来了，要好好爱我呦。</item>
+    </string-array>
+
+</resources>

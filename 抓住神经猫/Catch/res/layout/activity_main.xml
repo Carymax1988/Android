@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.liujiaqi.catchpoint.MainActivity" >
+    <RelativeLayout 
+       	android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+        <Button
+        android:layout_below="@id/text"
+        android:id="@+id/resetBtn"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="重置成绩" />
+         <Button
+        android:layout_below="@id/text"
+        android:id="@+id/restartBtn"
+        android:layout_toLeftOf="@id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="重新开始" />
+    </RelativeLayout>
+    
+    <com.liujiaqi.catchpoint.MainPanel 
+        android:layout_below="@id/layout"
+        android:id="@+id/panel"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
