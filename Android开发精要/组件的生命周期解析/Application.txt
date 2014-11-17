@@ -1,0 +1,11 @@
+//应用结束，可在此处保存数据
+	@Override
+	public void onTerminate() {
+		super.onTerminate();
+	}
+	
+	//系统内存过低，可以部署一些内存回收策略
+	@Override
+	public void onLowMemory() {
+		super.onLowMemory();
+	}

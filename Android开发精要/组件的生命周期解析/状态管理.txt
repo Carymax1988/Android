@@ -1,0 +1,3 @@
+当系统将界面组件切离前台状态（即Activity.onPause函数调用前），会先行调用Activity.onSaveInstanceState函数。在该函数中，开发者可以将组件中的状态数据写入参数outState对象中，outState对象的类型是android.os.Bundle，它通过键值对的方式进行数据的存储。
+
+在界面组件的开发中，时常需要分辨退出组件这个操作是由系统自动发出的还是用户主动操作的。一个简单的策略，可以通过Activity.onSaveInstanceState函数的调用情况来判断，如果在Activity.onPause函数调用前Activity.onSaveInstanceState被调用了，说明这是一次系统回收，反之则是用户主动退出。

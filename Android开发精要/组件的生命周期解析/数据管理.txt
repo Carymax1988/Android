@@ -1,0 +1,3 @@
+对于只读数据，一种常用的管理模式是在Activity.OnCreate函数进行数据的加载，直到组件的Activity.OnDestroy函数被调用时再进行释放
+
+如果数据需要支持读写操作，则通常需要在Activity.onResume或Activity.onCreate函数中进行读取，而在Activity.onPause函数中实现存储。
