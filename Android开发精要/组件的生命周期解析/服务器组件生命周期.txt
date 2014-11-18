@@ -1,0 +1,4 @@
+Service.OnStartCommand函数有三个最重要的返回值
+Service.START_STICKY		（不死组件）
+Service.START_NOT_STICKY	（无条件回收）
+Service.START_REDELIVER_INTENT	（需要保证该服务组件能够完整地处理每个Intent对象）
