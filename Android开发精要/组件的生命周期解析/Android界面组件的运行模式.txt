@@ -1,0 +1,9 @@
+standard（默认）
+
+singleTop
+如果被调用的界面组件与该任务栈顶组件的类型一致，那么系统就不会再为该界面组件构造新的对象，而是通过Activity.onNewIntent函数，将调用者发出的Intent对象传递给栈顶的组件对象。
+运行模式为singleTop的界面组件仅在作为栈顶组件时才可能被复用，因此，同一界面组件在系统中还是会存在多个组件对象。
+
+singleTask
+
+singleInstance
