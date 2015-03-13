@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 14
+    buildToolsVersion "21.1.1"
+
+    defaultConfig {
+        applicationId "com.liujiaqi.tingyun"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.networkbench.newlens.agent.android:agent-gradle-plugin:2.2.1"
+    }
+}
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'android'
+apply plugin: 'newlens'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:19.+'
+    compile "com.networkbench.newlens.agent.android:nbs.newlens.agent:2.2.1"
+}
