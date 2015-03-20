@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<citys>
+    <city id="0">
+    <name>Alaska</name>
+    <code>907</code>
+    </city>
+    <city id="1">
+    <name>Chicago</name>
+    <code>312</code>
+    </city>
+    <city id="2">
+    <name>Hawaii</name>
+    <code>808</code>
+    </city>
+</citys>
