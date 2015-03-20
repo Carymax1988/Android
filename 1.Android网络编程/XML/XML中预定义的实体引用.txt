@@ -1,5 +1,0 @@
-&it;	<
-&gt;	>
-&amp;	&
-&apos;	'
-&quot;	"

@@ -1,6 +1,0 @@
-使用正则表达式来抽取数据
-以纯字符串查找定位来实现
-使用HTML Parser解析
-使用Jsoup解析器
-
-Android推荐使用Jsoup解析
